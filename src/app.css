@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #eff1f4;
+}
+
+.menu {
+    background-color: white;
+    display: flex;
+    padding: 1.1rem;
+}
+/*-------------- Titulo----------------*/
+
+#header {
+    border-bottom: 9px solid #eceef1;
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    line-height: 1.34rem;
+    font: 20px "Poppins", sans-serif ;
+}
+
+#buscar {
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    margin-top: 1.7rem;
+}
+
+.pai {
+    position: absolute;
+    display: flex;
+}
+
+
+.lupa {
+    width: 2rem;
+    height: 1.3rem;
+}
+
+.tittle {
+    color: #0a82ec;
+    font: 2.5rem  "Poppins", sans-serif;
+    position: relative;
+    margin: 0.1rem;
+}
+
+.casa {
+    width: 280px;
+    height: 1.9rem;
+    margin-top: 2rem;
+    color: #1b74e4;
+    
+}
+
+.watch {
+    width: 280px;
+    height: 1.7rem;
+    margin-top: 2.2rem;
+    color: grey; 
+    margin-left: -12.5rem;
+}
+
+
+.shop {
+    width: 280px;
+    height: 1.7rem;
+    margin-top: 2.2rem;
+    color: grey;
+    margin-left: -12.5rem;
+}
+
+
+.group {
+    width: 280px;
+    height: 1.7rem;
+    margin-top: 2.2rem;
+    color: grey;
+    margin-left: -12.5rem;
+}
+
+.games {
+    width: 280px;
+    height: 1.7rem;
+    margin-top: 2.2rem;
+    color: grey;
+    margin-left: -12.5rem;
+}
+
+.eu {
+    width: 50px;
+    height: 1.2rem;
+    margin-top: 2.2rem;
+    color: #1b74e4;
+    margin-left: 50rem;
+}
+
+/*----------MENU SIDE-------------*/
+
+.lateral {
+    font: 18px "DM Sans", sans-serif;
+    background-color: #eff1f4;
+}
+
+#lateral {
+	width: 20%;
+	margin: 0;
+    padding: 0;
+	float: left;
+}
+
+#lateral ul  {
+    margin: 0; 
+    padding: 2px;
+	border-bottom: 2px solid #d6d8dc;
+	text-align: left;
+	list-style-type: none;
+}
+
+#lateral a:link {
+	text-decoration: none;
+	padding: 12px;
+	display: block;
+}
+
+/*------------ITENS MENU SIDE ---------*/ 
+
+.pessoa-1 {
+    width: 25px;
+    height: 1rem;
+    color: #1b74e4;
+}
+
+.amigos {
+    width: 25px;
+    height: 1rem;
+    color: #1b74e4;
+}
+
+.friends{
+    width: 25px;
+    height: 1rem;
+    color: #1b74e4;
+}
+
+.market {
+    width: 25px;
+    height: 1rem;
+    color: #1b74e4;
+}
+
+.memories {
+    width: 25px;
+    height: 1rem;
+    color: #1b74e4;
+}
+
+.seta {
+    width: 35px;
+    height: 1.2rem;
+    color: black;
+    background-color: #e4e6eb;
+    border-radius: 2rem;
+}
+
+/*----------- 2 MENU SIDE ---------*/
+
+.lateral-2 {
+    color: #7d6d6c;
+    text-align: center;
+}
+
+.dragon {
+    width: 25px;
+    height: 1rem;
+    color: red;
+}
+
+.ball {
+    width: 25px;
+    height: 1rem;
+    color: black;
+}
+
+.bird {
+    width: 25px;
+    height: 1rem;
+    color: red;
+}
+
+/*--------------CONTEÚDO----------------*/ 
+
+.imagens {
+    width: 800px;
+    height: 100%;
+    align-items: center;
+    padding: 12px;
+    margin-top: 8rem;
+    margin-left: 5rem;
+}
